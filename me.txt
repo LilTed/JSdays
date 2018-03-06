@@ -1,0 +1,5 @@
+HTML - 2
+CSS - 2
+JS - 1
+
+Fun to learn JS!
