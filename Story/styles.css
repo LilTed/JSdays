@@ -1,33 +1,60 @@
 h1 {
   font-family: fantasy, 'Times New Roman', Times, serif;
-  font-size: 2em;
+  font-size: 2.5em;
   color: purple;
 }
 p {
   font-family: fantasy, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  animation-name: test ;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+@keyframes test {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #46033d;
+  }
+  50% {
+    color: #06067e;
+  }
+  100% {
+    color: #046104;
+  }
 }
 #image {
   border: 7px solid #f7ff8e;
   border-radius: 25px;
+}
+#image:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease-in-out;
 }
 body {
   background-color: #fc899c;
   text-align: center;
 }
 ul {
+  font-size: 1.5em;
   list-style-type: none;
   padding: 25px;
   font-family: fantasy, 'Times New Roman', Times, serif;
 }
 a:link {
   text-decoration: none;
-  color: magenta;
+  color: #362436;
 }
 a:visited {
   text-decoration: none;
   color: #08a192;
 }
 a:hover {
-  color: green;
+  color: white;
+  font-size: 110%;
+  background-color: #fa07fa;
+  transition: all 0.8s ease;
 }
 /*lessc styles.less styles.css*/
